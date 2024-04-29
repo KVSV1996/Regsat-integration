@@ -1,3 +1,3 @@
-Сервис для интеграции ПО Регсат и Asterisk для уведомления клиентов о сотоянии их заказа. 
-Сервис является опытно-демонстрационным для реального использования есть необходимость донастройки под клиента.
-Сейчас сервис настроет под ПО Регсат компании Оптима такси.
+Service for integrating Regsat and Asterisk software to notify customers about the status of their order.
+The service is experimental and demonstration. For real use there is a need for additional customization for the client.
+Now the service will be configured for Regsat software from the Optima taxi company.
