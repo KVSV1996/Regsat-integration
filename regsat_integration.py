@@ -68,7 +68,7 @@ def switch(value):
 def create_asterisk_call_file(number_a, incoming_context, details, guid):
     fn = f"/var/spool/asterisk/outgoing/{number_a}.call"
     if not os.path.exists(fn):
-        content = f"""Channel: Local/{number_a}@test
+        content = f"""Channel: Local/{number_a}@{outgoing_context}
 MaxRetries: 5
 RetryTime: 10
 WaitTime: 55
